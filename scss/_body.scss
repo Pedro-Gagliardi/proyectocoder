@@ -1,0 +1,12 @@
+@import "variables";
+
+.body-container {    
+    display: grid;    
+    grid-template-columns: $medida-body;
+    justify-content: center;    
+
+    body {
+        font-family: 'Nunito', sans-serif;
+    }
+}
+

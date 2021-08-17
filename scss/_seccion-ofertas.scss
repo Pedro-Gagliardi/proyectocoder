@@ -1,0 +1,18 @@
+.container-ofertas {
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+
+h1, h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+}

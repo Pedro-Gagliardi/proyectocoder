@@ -1,0 +1,23 @@
+
+.redes-sociales {
+    display: flex;    
+    list-style: none;     
+    padding-left: 450px;
+    padding-top: 10px;
+    
+    .lista-redes {
+        padding-top: 20px;
+        padding-right: 40px;        
+    }
+}
+
+.icono-facebook, .icono-instagram, .icono-maps {    
+    height: 50px;
+    border-radius: 15%;     
+}
+
+.icono-facebook:hover, .icono-instagram:hover, .icono-maps:hover {    
+   transform: scale(1.1);     
+   transition: all 0.6s;
+}
+

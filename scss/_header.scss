@@ -1,0 +1,31 @@
+@import "variables";
+
+header {    
+        
+    .texto-header-container {
+        display: grid;        
+        float: right;
+        padding-top: 60px;   
+    } 
+
+    .texto-header {
+        color: rgb(118, 0, 0);
+        font-size: xx-large;
+        padding-right: 50px;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .container-img {
+     padding-top: 10px;
+     padding-bottom: 20px;
+    }
+
+    .img {
+        width: $ancho-imagen;
+        height: $alto-imagen;        
+    }
+}
+

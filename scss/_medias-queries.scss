@@ -1,0 +1,81 @@
+@media only screen and (max-width:1024px) {
+    .zona-nav-footer {
+        width: 400px;
+        font-size: x-small;
+    }
+   
+    .imagenes-venta {
+        width: 150px;
+    }
+
+    header .img {
+        margin-left: 270px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .redes-sociales {
+        padding-left:300px;
+    }
+
+    .icono-facebook, .icono-instagram, .icono-maps {    
+        height: 30px;
+        border-radius: 15%;     
+    }
+
+    header .img {
+        margin-left: 200px;
+    }
+
+    .imagenes-venta {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width:320px) { 
+
+    header .img {
+        margin-left: 60px;    
+        width: 150px;
+        height: 120px;
+    }
+
+    header .texto-header {
+        font-size: x-small;    
+        text-align: center;    
+    }
+
+    .imagenes-venta {
+        width: 100px;
+    }
+    
+    .lista-footer {
+        font-size: 8px;
+    }
+  
+    .icono-facebook, .icono-instagram, .icono-maps {    
+        height: 20px;
+        border-radius: 15%;     
+    }
+
+    .zona-nav-footer {
+        width: auto;
+    }
+    .redes-sociales {
+        padding-left: 70px;
+    }
+    .redes-sociales .lista-redes { 
+        padding-top: 10px;        
+        padding-right: 10px;
+    }
+
+    .imagenes-venta {
+        width: 50px;
+    }
+
+    p {
+        font-size: 5px;
+    }
+}
+    
+       

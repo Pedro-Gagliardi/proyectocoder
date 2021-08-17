@@ -1,0 +1,242 @@
+.body-container {
+  display: grid;
+  grid-template-columns: 85%;
+  justify-content: center;
+}
+.body-container body {
+  font-family: "Nunito", sans-serif;
+}
+
+.redes-sociales {
+  display: flex;
+  list-style: none;
+  padding-left: 450px;
+  padding-top: 10px;
+}
+.redes-sociales .lista-redes {
+  padding-top: 20px;
+  padding-right: 40px;
+}
+
+.icono-facebook, .icono-instagram, .icono-maps {
+  height: 50px;
+  border-radius: 15%;
+}
+
+.icono-facebook:hover, .icono-instagram:hover, .icono-maps:hover {
+  transform: scale(1.1);
+  transition: all 0.6s;
+}
+
+@media only screen and (max-width: 1024px) {
+  .zona-nav-footer {
+    width: 400px;
+    font-size: x-small;
+  }
+
+  .imagenes-venta {
+    width: 150px;
+  }
+
+  header .img {
+    margin-left: 270px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .redes-sociales {
+    padding-left: 300px;
+  }
+
+  .icono-facebook, .icono-instagram, .icono-maps {
+    height: 30px;
+    border-radius: 15%;
+  }
+
+  header .img {
+    margin-left: 200px;
+  }
+
+  .imagenes-venta {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  header .img {
+    margin-left: 60px;
+    width: 150px;
+    height: 120px;
+  }
+
+  header .texto-header {
+    font-size: x-small;
+    text-align: center;
+  }
+
+  .imagenes-venta {
+    width: 100px;
+  }
+
+  .lista-footer {
+    font-size: 8px;
+  }
+
+  .icono-facebook, .icono-instagram, .icono-maps {
+    height: 20px;
+    border-radius: 15%;
+  }
+
+  .zona-nav-footer {
+    width: auto;
+  }
+
+  .redes-sociales {
+    padding-left: 70px;
+  }
+
+  .redes-sociales .lista-redes {
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+
+  .imagenes-venta {
+    width: 50px;
+  }
+
+  p {
+    font-size: 5px;
+  }
+}
+header .texto-header-container {
+  display: grid;
+  float: right;
+  padding-top: 60px;
+}
+header .texto-header {
+  color: #760000;
+  font-size: xx-large;
+  padding-right: 50px;
+}
+header .texto-header a {
+  text-decoration: none;
+}
+header .container-img {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+header .img {
+  width: 250px;
+  height: 200px;
+}
+
+.section1-container {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.img-destacados {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.footer-container {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.footer-container footer {
+  background-color: black;
+  padding-top: 10px;
+}
+
+.zona-nav-footer {
+  display: grid;
+  grid-template-columns: 40% auto;
+}
+
+.lista-footer {
+  color: rgba(195, 195, 195, 0.683);
+}
+
+.ayuda {
+  background-color: black;
+  padding-top: 20px;
+}
+.ayuda p, .ayuda h1, .ayuda h2, .ayuda h3 {
+  color: rgba(219, 219, 219, 0.848);
+  text-align: center;
+}
+
+.container-contacto {
+  background-color: black;
+}
+.container-contacto h1 {
+  color: rgba(195, 195, 195, 0.683);
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+form {
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+.container-categorias {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto auto;
+}
+
+.imagenes-venta {
+  padding-top: 20px;
+  width: 300px;
+  margin-left: 35px;
+}
+
+.nombre-y-precio {
+  text-align: center;
+  padding: 10px;
+}
+
+.boton-comprar {
+  display: flex;
+  justify-content: center;
+}
+
+.container-ofertas {
+  background-color: black;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-items: center;
+}
+
+h1, h2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
