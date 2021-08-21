@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .body-container {
   display: grid;
   grid-template-columns: 85%;
@@ -206,7 +211,7 @@ textarea {
 
 .imagenes-venta {
   padding-top: 20px;
-  width: 300px;
+  width: 250px;
   margin-left: 35px;
 }
 
@@ -218,6 +223,13 @@ textarea {
 .boton-comprar {
   display: flex;
   justify-content: center;
+}
+
+.h2-redes {
+  padding-top: 40px;
+}
+.h2-redes h2 {
+  padding-left: 750px;
 }
 
 .container-ofertas {
