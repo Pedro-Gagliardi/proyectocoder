@@ -4,13 +4,29 @@
         font-size: x-small;
     }
    
-    .imagenes-venta {
-        width: 150px;
+    .container-imagen {
+   
+        .imagenes-venta {
+            width: 150px;
+        }
     }
 
     header .img {
         margin-left: 270px;
     }
+
+    .texto-header-container {        
+        float: right;
+        padding-top: 30px;
+    }
+
+    .h2-redes {
+        padding-top: 40px;   
+    
+        .h2-texto {
+            padding-left: 400px;
+        }
+    }   
 }
 
 @media only screen and (max-width:768px) {
@@ -27,9 +43,20 @@
         margin-left: 200px;
     }
 
-    .imagenes-venta {
-        width: 100px;
+    .container-imagen {
+        
+        .imagenes-venta {
+            width: 100px;
+        }
     }
+    
+    .h2-redes {
+        padding-top: 40px;   
+    
+        .h2-texto {
+            padding-left: 400px;
+        }
+    }   
 }
 
 @media only screen and (max-width:320px) { 

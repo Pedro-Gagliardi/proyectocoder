@@ -1,3 +1,5 @@
+@import "colores";
+
 .redes-sociales {
     display: flex;    
     list-style: none;     
@@ -19,3 +21,4 @@
         transition: $animaciones-transition;
     }
 }
+
