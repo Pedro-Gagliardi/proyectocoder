@@ -1,3 +1,4 @@
+@import "colores";
 
 .redes-sociales {
     display: flex;    
@@ -13,11 +14,11 @@
 
 .icono-facebook, .icono-instagram, .icono-maps {    
     height: 50px;
-    border-radius: 15%;     
-}
-
-.icono-facebook:hover, .icono-instagram:hover, .icono-maps:hover {    
-   transform: scale(1.1);     
-   transition: all 0.6s;
+    border-radius: 15%;   
+    
+    &:hover {
+        transform: $animaciones-transform; 
+        transition: $animaciones-transition;
+    }
 }
 
