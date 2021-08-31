@@ -79,7 +79,7 @@
       <img src="imagenes/logoDelBene.png" alt="logo" class="img">
       <div class="texto-header-container">
         <h1>Del Bene MOTOSHOP</h1>
-        <h2>Desde 2020 brindando soluciones para el motociclista.</h2>
+        <h2 class="h2-header">Desde 2020 brindando soluciones para el motociclista.</h2>
       </div>      
   </header>
   <!-- Fin encabezado -->
@@ -87,24 +87,26 @@
   <!-- Sección 1 - formulario contacto -->
   <section class="container-contacto">    
     <div>
-      <form action="">
-        <h1>Tenés dudas, consultas o sugerenias? ESCRIBINOS!</h1>
-        <input type="text" name="Nombre" placeholder="Nombre">
-        <input type="text" name="Correo" placeholder="Correo">
-        <input type="text" name="Teléfono" placeholder="Teléfono">
-        <textarea name="Mensaje" placeholder="Ecriba aquí su mensaje"></textarea>
-        <input type="button" value="ENVIAR" class="boton-contacto">
-    </form>
+      <form method="POST" action="enviar2.php">
+        <h1>ESCRIBINOS!</h1>
+        <label for="nombre-usuario">Nombre</label>
+        <input type="text" name="nombre" id="nombre-usuario">
+
+        <label for="email-usuario">Email</label>
+        <input type="email" name="email" id="email-usuario">
+
+        <label for="telefono-usuario">Teléfono</label>
+        <input type="tel" name="telefono" id="telefono-usuario">
+
+        <label for="mensaje">Escriba aquí su mensaje</label>
+        <textarea name="Mensaje" id="mensaje"></textarea>
+        
+        <input type="submit" value="ENVIAR" class="boton-contacto">
+      </form>
     </div>
   </section>
   <!-- Fin formulario contacto -->
-
-  <!-- Sección 2 -->
-  <section class="h2-redes">
-    <h2 class="h2-texto">Visitá nuestras redes sociales!</h2>
-  </section>
-  <!-- Fin sección 2 -->
-
+  
   <!-- Nav bar -->
   <section class="footer-container">
     <nav class="navbar navbar-dark bg-dark">
