@@ -5,7 +5,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": {
+    "name": "Pedro Gagliardi",
+    "email": "pedroegagliardi@gmail.com"
+
+  },
+
   "license": "ISC",
-  "description": ""
+  "description": "Del Bene Motoshop es un futuro ecomerce para un comercio local de mi ciudad",
+  "repository": {
+    "type": "Git",
+    "url": "https://github.com/Pedro-Gagliardi/proyectocoder"
+  }
 }

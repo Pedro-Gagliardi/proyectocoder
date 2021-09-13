@@ -36,6 +36,7 @@
 
     .icono-facebook, .icono-instagram, .icono-maps {    
         height: 30px;
+        width: 30px;
         border-radius: 15%;     
     }
 
@@ -49,6 +50,17 @@
             width: 100px;
         }
     }
+
+    .section2-container {
+        
+        .img-destacados-1 {
+            height: 200px;
+        }
+
+        .img-destacados-2 {
+            height: 200px;
+        }
+    }    
     
     .h2-redes {
         padding-top: 40px;   
@@ -81,14 +93,33 @@
     .imagenes-venta {
         width: 100px;
     }
+
+    .section2-container {
+        
+        .img-destacados-1 {
+            height: 80px;
+            padding-top: 4px;
+        }
+
+        .img-destacados-2 {
+            height: 80px;
+            padding-top: 4px;
+        }
+
+        .img-destacados-3 {
+            height: 40px;
+            padding-top: 4px;
+        }
+    }    
     
     .lista-footer {
         font-size: 8px;
     }
   
-    .icono-facebook, .icono-instagram, .icono-maps {    
+    .icono-facebook, .icono-instagram, .icono-maps {   
+        width: 20px; 
         height: 20px;
-        border-radius: 15%;     
+        border-radius: 20%;     
     }
 
     .zona-nav-footer {

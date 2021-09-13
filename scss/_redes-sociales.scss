@@ -12,9 +12,10 @@
     }
 }
 
-.icono-facebook, .icono-instagram, .icono-maps {    
-    height: 50px;
-    border-radius: 15%;   
+.icono-facebook, .icono-instagram, .icono-maps {  
+    width: 40px;  
+    height: 40px;
+    border-radius: 20%;   
     
     &:hover {
         transform: $animaciones-transform; 

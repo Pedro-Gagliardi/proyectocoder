@@ -24,8 +24,9 @@
 }
 
 .icono-facebook, .icono-instagram, .icono-maps {
-  height: 50px;
-  border-radius: 15%;
+  width: 40px;
+  height: 40px;
+  border-radius: 20%;
 }
 .icono-facebook:hover, .icono-instagram:hover, .icono-maps:hover {
   transform: scale(1.1);
@@ -65,6 +66,7 @@
 
   .icono-facebook, .icono-instagram, .icono-maps {
     height: 30px;
+    width: 30px;
     border-radius: 15%;
   }
 
@@ -74,6 +76,13 @@
 
   .container-imagen .imagenes-venta {
     width: 100px;
+  }
+
+  .section2-container .img-destacados-1 {
+    height: 200px;
+  }
+  .section2-container .img-destacados-2 {
+    height: 200px;
   }
 
   .h2-redes {
@@ -102,13 +111,27 @@
     width: 100px;
   }
 
+  .section2-container .img-destacados-1 {
+    height: 80px;
+    padding-top: 4px;
+  }
+  .section2-container .img-destacados-2 {
+    height: 80px;
+    padding-top: 4px;
+  }
+  .section2-container .img-destacados-3 {
+    height: 40px;
+    padding-top: 4px;
+  }
+
   .lista-footer {
     font-size: 8px;
   }
 
   .icono-facebook, .icono-instagram, .icono-maps {
+    width: 20px;
     height: 20px;
-    border-radius: 15%;
+    border-radius: 20%;
   }
 
   .zona-nav-footer {
@@ -180,7 +203,19 @@ header .h2-header {
   padding-top: 40px;
 }
 
-.img-destacados {
+.img-destacados-1 {
+  width: 100%;
+  height: 350px;
+  padding-top: 40px;
+}
+
+.img-destacados-2 {
+  width: 100%;
+  height: 300px;
+  padding-top: 40px;
+}
+
+.img-destacados-3 {
   width: 100%;
   padding-top: 40px;
 }
@@ -274,6 +309,11 @@ textarea {
 }
 .h2-redes h2 {
   padding-left: 750px;
+}
+
+.encabezados {
+  background-color: rgba(219, 219, 219, 0.848);
+  padding: 10px;
 }
 
 .container-ofertas {
