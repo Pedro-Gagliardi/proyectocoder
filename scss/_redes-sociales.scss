@@ -1,9 +1,14 @@
 @import "colores";
 
+.container-redes {
+    display: flex;
+    justify-content: end;
+}
+
 .redes-sociales {
     display: flex;    
-    list-style: none;     
-    padding-left: 450px;
+    float: right;
+    list-style: none;         
     padding-top: 10px;
     
     .lista-redes {
@@ -13,7 +18,7 @@
 }
 
 .icono-facebook, .icono-instagram, .icono-maps {  
-    width: 40px;  
+    width: 40px;      
     height: 40px;
     border-radius: 20%;   
     

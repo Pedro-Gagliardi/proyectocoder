@@ -5,17 +5,22 @@
 
 .body-container {
   display: grid;
-  grid-template-columns: 85%;
+  grid-template-columns: 90%;
   justify-content: center;
 }
 .body-container body {
   font-family: "Nunito", sans-serif;
 }
 
+.container-redes {
+  display: flex;
+  justify-content: end;
+}
+
 .redes-sociales {
   display: flex;
+  float: right;
   list-style: none;
-  padding-left: 450px;
   padding-top: 10px;
 }
 .redes-sociales .lista-redes {
@@ -35,8 +40,7 @@
 
 @media only screen and (max-width: 1024px) {
   .zona-nav-footer {
-    width: 400px;
-    font-size: x-small;
+    font-size: small;
   }
 
   .container-imagen .imagenes-venta {
@@ -231,7 +235,7 @@ header .h2-header {
 
 .zona-nav-footer {
   display: grid;
-  grid-template-columns: 40% auto;
+  grid-template-columns: 50% 50%;
 }
 
 .lista-footer {
